@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+  @apply scroll-smooth;
+}
+
+.cabecalho{
+  @apply bg-white h-[20vh] p-4 flex flex-auto text-3xl text-black font-bold justify-around items-center;
+}
+
+.itensMenu{
+  @apply flex flex-auto
+}
+
+.itensMenu li{
+  @apply p-4 items-center
+}
