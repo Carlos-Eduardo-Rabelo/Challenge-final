@@ -18,3 +18,27 @@
 .itensMenu li{
   @apply p-4 items-center
 }
+
+.main{
+    @apply p-0 m-0 text-black;
+}
+  
+.linha{
+    @apply h-1 w-[80%] m-auto bg-yellow-400;
+}
+
+.bem-vindo{
+    @apply w-[80%]  bg-cyan-100 m-auto mt-[3%] rounded-[20px] flex flex-row;
+
+    & .titulo{
+        @apply text-left text-black text-3xl font-bold ml-[3%] mt-[5%];
+    }
+
+    & .paragrafo {
+        @apply text-left text-black text-xl w-[80%] ml-[5%];
+    }
+
+    & .img-bv{
+        @apply rounded-tr-[20px] rounded-br-[20px];
+    }
+}
