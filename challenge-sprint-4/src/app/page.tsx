@@ -35,5 +35,26 @@ export default function Home () {
               </Link>
         </div>
     </nav>
+    <div className="sobre" id="sobre">
+      <h1 className="titulo">Quem Somos
+      </h1>
+      <p className="paragrafo">
+        Nosso objetivo é oferecer a você uma solução adequada para os problemas do seu veículo. Desde a
+        identificação do problema até a conclusão da manutenção, pode contar conosco para oferecer a você
+        confiança, cuidado e atenção que até hoje nenhuma plataforma fez igual! Você que já é cliente
+        Porto faça seu login ou, se ainda não é, realize já o seu cadastro!
+      </p>
+      <h1 className="titulo">Nossa Solução</h1>
+      <p className="paragrafo">
+        A Conserta Fácil oferece uma plataforma completa, desenvolvida para atender todas as suas necessidades automotivas de forma simples e eficaz:
+      </p>
+      <ul>
+        <li>Auto Diagnóstico: Permite identificar possíveis problemas no seu veículo com base nas informações fornecidas, sem a necessidade de intervenção humana.</li>
+        <li>Auto Orçamento: Receba um orçamento detalhado com o custo estimado de peças, mão de obra e o tempo necessário para o conserto, tudo gerado de forma automatizada.</li>
+        <li>Agendamento Prático: Agende sua manutenção no centro automotivo mais próximo, de forma rápida e sem complicações.</li>
+        <li>Resgate/Guincho: Solicite assistência imediata em caso de emergência com apenas um clique. Nosso sistema localiza sua posição e aciona o guincho mais próximo.</li>
+        <li>Gestão de Usuários: Gerencie facilmente seu cadastro, histórico de manutenções e orçamentos, para facilitar futuros atendimentos.</li>
+      </ul>
+  </div>
   )
 }
