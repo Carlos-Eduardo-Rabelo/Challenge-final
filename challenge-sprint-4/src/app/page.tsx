@@ -56,5 +56,11 @@ export default function Home () {
         <li>Gestão de Usuários: Gerencie facilmente seu cadastro, histórico de manutenções e orçamentos, para facilitar futuros atendimentos.</li>
       </ul>
   </div>
+  <div className="visao">
+    <h1 className="titulo">Nossa Visão</h1>
+    <p className="paragrafo">
+      Queremos ser a solução de confiança para motoristas de todo o país. Nossa visão é simplificar e otimizar o processo de manutenção veicular, proporcionando uma experiência prática e transparente em todas as etapas, do diagnóstico ao conserto. Com o uso de tecnologia avançada, buscamos redefinir a forma como as pessoas cuidam de seus veículos.
+    </p>
+  </div>
   )
 }
