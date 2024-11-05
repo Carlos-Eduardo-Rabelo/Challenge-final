@@ -1,0 +1,18 @@
+{
+    "pessoa": [
+        {
+            "id": 1,
+            "nome": "Carlos",
+            "idade": 18,
+            "sexo": "Masculino",
+            "tipoVeiculo": "carro"
+        },
+        {
+            "id": 2,
+            "nome": "Lucas",
+            "idade": 18,
+            "sexo": "Masculino",
+            "tipoVeiculo": "moto"
+        }
+    ]
+}
