@@ -20,6 +20,20 @@ export default function Home () {
           <Image src={motor} alt="Foto de motor" className="img-bv w-[50%]"/>
         </div>
       </div>  
-    </div>  
+    </div> 
+    <nav className="parceiras" id="parceiros">
+        <h1 className="titulo">Conheça nossos parceiros</h1>
+        <div className="links">
+              <Link href="https://www.portoseguro.com.br">
+                <Image src={porto} alt="Logo da Porto Seguro" className="logo-parceira"/>
+              </Link>
+              <Link href="https://www.oxigenioaceleradora.com.br">
+                <Image src={oxiace} alt="Logo da Porto Seguro" className="logo-parceira"/>
+              </Link>
+              <Link href="https://www.fiap.com.br/institucional/#conceito">
+                <Image src={fiap} alt="Logo da Porto Seguro" className="logo-parceira"/>
+              </Link>
+        </div>
+    </nav>
   )
 }
