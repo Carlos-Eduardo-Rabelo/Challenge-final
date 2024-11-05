@@ -62,5 +62,34 @@ export default function Home () {
       Queremos ser a solução de confiança para motoristas de todo o país. Nossa visão é simplificar e otimizar o processo de manutenção veicular, proporcionando uma experiência prática e transparente em todas as etapas, do diagnóstico ao conserto. Com o uso de tecnologia avançada, buscamos redefinir a forma como as pessoas cuidam de seus veículos.
     </p>
   </div>
+  <div className="valores">
+    <h1 className="titulo">Nossos Valores</h1>
+    <div className="grid grid-cols-2">
+      <div>
+        <h2 className="subtitulo">1. Transparência</h2>
+        <p className="paragrafo-valores">
+        Informamos cada detalhe do processo, desde o diagnóstico até o orçamento, para que você tenha total confiança nos serviços prestados.
+        </p>
+      </div>
+      <div>
+        <h2 className="subtitulo">2.Eficiência</h2>
+        <p className="paragrafo-valores">
+        Oferecemos soluções rápidas e assertivas para garantir que seu veículo volte à estrada no menor tempo possível.
+        </p>
+      </div>
+      <div>
+        <h2 className="subtitulo">3.Inovação</h2>
+        <p className="paragrafo-valores">
+        Estamos sempre atualizando nossas ferramentas e processos para garantir que nossos clientes tenham acesso ao que há de mais moderno em tecnologia automotiva.
+        </p>
+      </div>
+      <div>
+        <h2 className="subtitulo">4.Confiabilidade</h2>
+        <p className="paragrafo-valores">
+        Mais do que prestar serviços de reparação, queremos ser seu parceiro de confiança na manutenção do seu veículo.
+        </p>
+      </div>
+    </div>
+  </div>
   )
 }
